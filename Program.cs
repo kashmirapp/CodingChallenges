@@ -13,7 +13,7 @@ namespace findOne
         }
         public static void Main(string[] args)
         {
-            int[] ar = { 2, 3, 5, 4, 5, 3, 4 };
+            int[] ar = { 4, 3, 6, 4, 5, 2, 4 };
             int n = ar.Length;
 
             Console.WriteLine("Element showing up only once is " + findSingle(ar, n) +  "");
